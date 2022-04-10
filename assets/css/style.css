@@ -6,6 +6,7 @@
 
 body {
     background-color:burlywood;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 header {
@@ -16,7 +17,10 @@ header {
 
 header h1 {
     text-align: left;
+    font-style: italic;
     display: inline-block;
+    text-decoration: none;
+    color: red;
 }
 
 header nav {
@@ -31,10 +35,11 @@ header nav ul li {
     margin-left: 25px;
 }
 
-header nav ul li a img {
-    width: 4%;
-    height: 3%;
+header a {
+    text-decoration: none;
+    color: red;
 }
+
 
 body div, body article, body p {
     border: solid 2px red;
@@ -85,6 +90,7 @@ background-position: center;
 .portfolio-list {
     list-style-type: square;
     padding-left: 2%;
+    display: flex;
 }
 
 .portfolio-container {
@@ -93,8 +99,10 @@ background-position: center;
 }
 
 .portfolio-list-container {
+    display: flex;
     flex-grow: 1;
     line-height: 2.5;
+    justify-content: center;
 }    
 
 .portfolio-text {
@@ -103,8 +111,8 @@ background-position: center;
 }
 
 .portfolio-list li img {
-    max-width: 16%;
-    max-height: 9%;
+    aspect-ratio: 16 / 9;
+    max-width: 175px;
 }
 
 .portfolio-list li a:hover {
@@ -142,6 +150,7 @@ background-position: center;
 .resume-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .resume-container object {
