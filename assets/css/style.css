@@ -8,7 +8,48 @@ body {
     background-color:burlywood;
 }
 
+header {
+    padding: 20px;
+    position: sticky;
+    height: 8%;
+}
 
+header h1 {
+    text-align: left;
+    display: inline-block;
+}
+
+header nav {
+    padding-top: 10px;
+    margin-right: 20px;
+    float: right;
+    font-size: 22px;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+header nav ul li a img {
+    width: 4%;
+    height: 3%;
+}
+
+body div, body article, body p {
+    border: solid 2px red;
+}
+
+body h2 {
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+body h3 {
+    text-align: center;
+    color: rgb(41, 136, 214)
+}
 
 
 /* jumbotron style */
@@ -21,10 +62,134 @@ background-size: cover;
 background-position: center;
 }
 
-.resume-img {
-    display: block;
-    width: 100px;
+#portfolio, #resume, #contact {
+    background-color: white;
+    margin-bottom: 2%;
+    border-bottom: solid 5px rgb(41, 136, 214); 
+}
+
+
+/* Portfolio styling */
+.portfolio-img img {
+    max-height: 200px;
     padding: 20px;
-    
+    background-color: white;
+}
+
+.portfolio-img {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.portfolio-list {
+    list-style-type: square;
+    padding-left: 2%;
+}
+
+.portfolio-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio-list-container {
+    flex-grow: 1;
+    line-height: 2.5;
+}    
+
+.portfolio-text {
+    display: block;
+    width: 100%;
+}
+
+.portfolio-list li img {
+    max-width: 16%;
+    max-height: 9%;
+}
+
+.portfolio-list li a:hover {
+    color:red;
 
 }
+
+/* Bio Styling */
+#bio {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5%;
+    justify-content: space-around;
+
+}
+
+.bio-image, .bio-text {
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+}
+
+.bio-image img {
+    max-height: 500px;
+    padding: 20px;  
+    max-width: 100%;
+}
+
+/* Resume styling */
+.resume-preview {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.resume-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.resume-container object {
+    border: solid red 3px;
+    padding: 1%;
+    width: 100%;
+}
+
+.resume-img img {
+    max-height: 200px;
+    padding: 20px;
+    background-color: white;
+}
+
+.resume-img {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.resume-img p {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.resume-preview {
+    width: 90%;
+    height: 40%;
+    margin: auto 5%;
+}
+
+/* Contact styling */
+.contact-text {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-img img {
+    max-height: 200px;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+
