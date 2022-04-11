@@ -4,11 +4,9 @@
     margin: 0;
 }
 
-body {
-    background-color:burlywood;
-    font-family: Helvetica, Arial, sans-serif;
-}
 
+
+/* Header Styling */
 header {
     padding: 20px;
     position: sticky;
@@ -45,6 +43,11 @@ header a {
     font-weight: bold;
 }
 
+/* body styling */
+body {
+    background-color:burlywood;
+    font-family: Helvetica, Arial, sans-serif;
+}
 
 body div, body article, body p {
     border: solid 2px red;
@@ -90,7 +93,6 @@ background-position: center;
     display: flex;
     flex-wrap: wrap;
 }
-
 
 .portfolio-list {
     list-style-type: square;
@@ -224,4 +226,16 @@ background-position: center;
     text-align: center;
 }
 
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    header {
+    }
 
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+    section {
+    }
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+    }
