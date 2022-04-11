@@ -40,6 +40,11 @@ header a {
     color: red;
 }
 
+.nav-links li a:hover {
+    color:blue;
+    font-weight: bold;
+}
+
 
 body div, body article, body p {
     border: solid 2px red;
@@ -117,7 +122,6 @@ background-position: center;
 
 .portfolio-list li a:hover {
     color:red;
-
 }
 
 /* Bio Styling */
@@ -185,16 +189,33 @@ background-position: center;
 
 /* Contact styling */
 .contact-text {
-    display: flex;
-    flex-wrap: wrap;
-}
+    display: inline-block;
 
+}
+.contact-img {
+    display: inline-block;
+}
 .contact-img img {
     max-height: 200px;
     padding: 20px;
     background-color: white;
+    display: inline-block;
+    flex-wrap: wrap;
+}
+
+.contact-text address {
+    line-height: 2.5;
+}
+
+#contact {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contact-img, .contact-text {
+    border: none;
 }
 
 .section-title {
