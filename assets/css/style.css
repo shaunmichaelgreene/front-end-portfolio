@@ -4,6 +4,11 @@
     margin: 0;
 }
 
+:root {
+    --primary-color: red;
+    --secondary-color: burlywood;
+    --tertiary-color: rgb(97, 43, 11);
+}
 
 
 /* Header Styling */
@@ -18,7 +23,7 @@ header h1 {
     font-style: italic;
     display: inline-block;
     text-decoration: none;
-    color: red;
+    color: var(--primary-color);
 }
 
 header nav {
@@ -35,7 +40,7 @@ header nav ul li {
 
 header a {
     text-decoration: none;
-    color: red;
+    color: var(--primary-color);
 }
 
 .nav-links li a:hover {
@@ -45,12 +50,8 @@ header a {
 
 /* body styling */
 body {
-    background-color:burlywood;
+    background-color:var(--secondary-color);
     font-family: Helvetica, Arial, sans-serif;
-}
-
-body div, body article, body p {
-    border: solid 2px red;
 }
 
 body h2 {
@@ -61,7 +62,7 @@ body h2 {
 
 body h3 {
     text-align: center;
-    color: rgb(41, 136, 214)
+    color: var(--tertiary-color);
 }
 
 
@@ -76,9 +77,9 @@ background-position: center;
 }
 
 #portfolio, #resume, #contact {
-    background-color: white;
+    background-color: var(--secondary-color);
     margin-bottom: 2%;
-    border-bottom: solid 5px rgb(41, 136, 214); 
+    border-bottom: solid 5px var(--tertiary-color); 
 }
 
 
@@ -92,6 +93,7 @@ background-position: center;
 .portfolio-img {
     display: flex;
     flex-wrap: wrap;
+    margin: 0 auto;
 }
 
 .portfolio-list {
@@ -132,13 +134,17 @@ background-position: center;
     flex-wrap: wrap;
     margin: 5%;
     justify-content: space-around;
-
+    border-bottom: solid 5px var(--tertiary-color);
 }
 
 .bio-image, .bio-text {
     display: flex;
     flex-wrap: wrap;
     width: 40%;
+}
+
+.bio-text {
+    padding: 20px;
 }
 
 .bio-image img {
@@ -157,10 +163,11 @@ background-position: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding-bottom: 2%;
 }
 
 .resume-container object {
-    border: solid red 3px;
+    border: solid var(--tertiary-color) 3px;
     padding: 1%;
     width: 100%;
 }
@@ -180,6 +187,7 @@ background-position: center;
 .resume-img p {
     display: flex;
     flex-wrap: wrap;
+    padding-bottom: 2%;
 }
 
 .resume-preview {
@@ -190,6 +198,9 @@ background-position: center;
 }
 
 /* Contact styling */
+#contact {
+    border-bottom: none;
+}
 .contact-text {
     display: inline-block;
 
@@ -228,12 +239,26 @@ background-position: center;
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
+    #bio {
+        display: block;
+        text-align: center;
     }
 
-/* MEDIA QUERY FOR TABLETS AND SMALLER */
-@media screen and (max-width: 768px) {
+    .bio-image {
+        margin: 0 auto;
+        text-align: center;
+        justify-content: center;
+        width: 75%;
+    }
+
+    .bio-text {
+        margin: auto;
+        width: 75%;
     }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
+    .portfolio-list li img {
+        max-width: 125px;
+    }
     }
