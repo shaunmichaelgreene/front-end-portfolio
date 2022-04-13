@@ -76,6 +76,7 @@ background-size: cover;
 background-position: center;
 }
 
+
 #portfolio, #resume, #contact {
     background-color: var(--secondary-color);
     margin-bottom: 2%;
@@ -255,17 +256,18 @@ background-position: center;
         margin: auto;
         width: 75%;
     }
+}
 
     /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 768px) {
     .resume-preview {
         display: none;
     }
-    }
+}
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
     .portfolio-list li img {
         max-width: 125px;
     }
-    }
+}
