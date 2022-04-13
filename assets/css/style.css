@@ -256,6 +256,13 @@ background-position: center;
         width: 75%;
     }
 
+    /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 768px) {
+    .resume-preview {
+        display: none;
+    }
+    }
+
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
     .portfolio-list li img {
