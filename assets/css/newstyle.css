@@ -33,6 +33,8 @@ body {
     opacity: .8;
     background-color: white;
     padding: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
 }
 
 .portfolio-list-container {
@@ -62,6 +64,7 @@ body {
     opacity: .9;
     padding: 5px;
     border-radius: 5px;
+    /*max-width: 25%;*/
 }
 
 .resume-preview {
@@ -99,6 +102,18 @@ body {
     padding-bottom: 8px;
     justify-content: inherit;
     opacity: .9;
+}
+
+#portfolio-card {
+    margin: 2.5% auto 0 auto;
+    padding: .5%;
+}
+
+#portfolio-overlay {
+    margin: auto;
+    margin-bottom: 0;
+    margin-top: 25%;
+    max-width: 25%;
 }
 
 .contact-img {
