@@ -63,6 +63,11 @@ body {
     opacity: .9;
     padding: 5px;
     border-radius: 5px;
+    text-decoration: none;
+}
+
+#portfolio a:hover {
+    text-decoration: underline;
 }
 
 
