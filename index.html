@@ -32,7 +32,7 @@
         </header>
         <main>
             <section id="bio" class="row container">
-                <!-- <h3 class="section-title col-12 d-flex justify-content-center">Bio</h3> -->
+                <h3 class="section-title justify-content-center">Bio</h3>
                 <div class="bio-image p-2 text-center col-sm-6">
                     <img src="./assets/images/bio-img.jpg" class ="img-fluid" alt="picture of Shaun standing and smiling on a rainy day">
                 </div>
@@ -41,11 +41,23 @@
             </section>
 
 
-            <!-- <div class="portfolio-img">
-                <img class="img-fluid" src="./assets/images/portfolio.jpg" alt="picture of a portfolio, made from wood">
-            </div> -->
             <section id="portfolio" class="portfolio-container">
-                <h3 class="section-title">Portfolio</h3>
+                <!-- <div id="portfolio-card" class="card w-25">
+                    <h3 class="section-title">Portfolio</h3>
+                    <div class="portfolio-img">
+                        <img class="card-img-top" src="./assets/images/portfolio.jpg" alt="picture of a portfolio, made from wood">
+                    </div>
+
+                </div> -->
+
+                <div id="portfolio-card" class="card w-25">
+                    <img class="card-img" src="./assets/images/portfolio.jpg" alt="picture of a portfolio, made from wood">
+                    <div class="portfolio-img card-img-overlay">
+                        <h3 id="portfolio-overlay" class="section-title card-text">Portfolio</h3>
+                    </div>
+
+                </div>
+
                 <div class="portfolio-list-container justify-content-around row card-deck">
                     <div class="col-md-4 col-xs-12 text-center card">
                         <a href="https://shaunmichaelgreene.github.io/run-buddy/">Course Project 1: Run Buddy (2022)</a>
