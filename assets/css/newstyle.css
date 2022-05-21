@@ -1,3 +1,14 @@
+/* header {
+    background-image: url("../images/workshop2.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    opacity: 1;
+} */
+
 body {
     background-image: url("../images/workshop2.jpg");
     background-position: center center;
@@ -14,6 +25,7 @@ body {
     background-color: burlywood;
     opacity: .9;
     padding: 5px;
+    top: 0;
 }
 
 .container {
@@ -39,6 +51,7 @@ body {
 .bio-text {
     font-size: 25px;
 }
+
 
 .section-title {
     margin-top: 2%;
@@ -117,3 +130,29 @@ body {
     margin: 0 auto;
 }
 
+ #dogs-img {
+    display: none;
+    /* width: 255px;
+    height: 143px; */
+}
+
+.mini-preview-frame {
+    transform: scale(0.42);
+}
+
+/* .mini-preview-frame {
+    width: 200%;
+    height: 200%;
+    transform: scale(0.5);
+}
+
+.mini-preview-frame img {
+    width: 100%
+} */
+
+/* #dogs:hover + #dogs-img {
+    display: block;
+    width: 200px;
+    height: 200px;
+    background: burlywood;
+} */

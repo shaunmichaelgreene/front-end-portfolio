@@ -7,7 +7,14 @@
     <title>Shaun Greene's Workshop</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/newstyle.css"/>
-    </head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <link href="https://codegena.com/assets/css/image-preview-for-link.css" rel="stylesheet">     
+    <script type="text/javascript">
+        $(function() {
+            $('#dogs').miniPreview({ prefetch: 'pageload' });
+        });
+        </script> <script src="https://codegena.com/assets/js/image-preview-for-link.js"></script>
+</head>
 
     <body>
         <header class="navbar sticky-top row d-block">
@@ -29,8 +36,8 @@
                 <div class="bio-image p-2 text-center col-sm-6">
                     <img src="./assets/images/bio-img.jpg" class ="img-fluid" alt="picture of Shaun standing and smiling on a rainy day">
                 </div>
-                <p class="lead bio-text p-2 text-center col-sm-6">Shaun Greene is an amateur developer, carpenter, and woodworker. He is currently progressing through the Full Stack Coding Boot Camp at Michigan State University. Professionally, Shaun has worn many hats during his career. With prior experience in sales, business development, project management, oil & gas, and land management; Shaun currently works as a President's Club Title Analyst for Rocket Companies. Shaun is focused on securing a full-time position as a Full Stack Developer upon graduation (expected September 2022). Shaun spends his free time building custom furniture, working on home improvements, and hiking with his dogs - <span id="dogs">Gunner & Rousey</span>.</p>
-                
+                <p class="lead bio-text p-2 text-center col-sm-6">Shaun Greene is an amateur developer, carpenter, and woodworker. He is currently progressing through the Full Stack Coding Boot Camp at Michigan State University. Professionally, Shaun has worn many hats during his career. With prior experience in sales, business development, project management, oil & gas, and land management; Shaun currently works as a President's Club Title Analyst for Rocket Companies. Shaun is focused on securing a full-time position as a Full Stack Developer upon graduation (expected September 2022). Shaun spends his free time building custom furniture, working on home improvements, and hiking with his dogs - <a href="./assets/images/dogs.JPG" id="dogs">Gunner & Rousey</a>.</p>
+                <img src="./assets/images/dogs.JPG" id="dogs-img" class="">
             </section>
 
 
