@@ -113,6 +113,11 @@ body {
     margin-top: 10px;
 }
 
+#preview-container img:hover {
+    border-color: blue;
+    opacity: .8;
+}
+
 #portfolio .card {
     /* width: 30%; */
     background-color: burlywood;
