@@ -30,3 +30,5 @@ Live Deployment Link: https://shaunmichaelgreene.github.io/portfolio/index.html
 
 
 
+Special Thanks To: Kevin Begin, Cabral Williams, Brennan Spicer, Colton Watkins, [This Old House](https://www.thisoldhouse.com/21213901/download-this-old-house-backgrounds-for-zoom-meetings), [Codegena](https://codegena.com/image-link-preview-on-hover/)
+
