@@ -14,6 +14,7 @@
             $('#dogs').miniPreview({ prefetch: 'pageload' });
         });
         </script> <script src="https://codegena.com/assets/js/image-preview-for-link.js"></script>
+    <script src="https://kit.fontawesome.com/378f0fe68c.js" crossorigin="anonymous"></script>
 </head>
 
     <body>
@@ -36,20 +37,12 @@
                 <div class="bio-image p-2 text-center col-sm-6">
                     <img src="./assets/images/bio-img.jpg" class ="img-fluid" alt="picture of Shaun standing and smiling on a rainy day">
                 </div>
-                <p class="lead bio-text p-2 text-center col-sm-6">Shaun Greene is an amateur developer, carpenter, and woodworker. He is currently progressing through the Full Stack Coding Boot Camp at Michigan State University. Professionally, Shaun has worn many hats during his career. With prior experience in sales, business development, project management, oil & gas, and land management; Shaun currently works as a President's Club Title Analyst for Rocket Companies. Shaun is focused on securing a full-time position as a Full Stack Developer upon graduation (expected September 2022). Shaun spends his free time building custom furniture, working on home improvements, and hiking with his dogs - <a href="./assets/images/dogs.JPG" id="dogs">Gunner & Rousey</a>.</p>
-                <img src="./assets/images/dogs.JPG" id="dogs-img" class="">
+                <p class="lead bio-text p-2 text-center col-sm-6">Shaun Greene is an amateur developer, carpenter, and woodworker. He is currently progressing through the Full Stack Coding Boot Camp at Michigan State University. Professionally, Shaun has worn many hats during his career. With prior experience in sales, business development, project management, oil & gas, and land management; Shaun currently works as a President's Club Title Analyst for Rocket Companies. Shaun is focused on securing a full-time position as a Full Stack Developer upon graduation (expected September 2022). Shaun spends his free time building custom furniture, working on home improvements, and hiking with his dogs - <a href="./assets/images/dogs.JPG" id="dogs" target="_blank">Gunner & Rousey</a>.</p>
+                <img src="./assets/images/dogs.JPG" id="dogs-img" class="" alt="a picture of Shaun's dogs, Gunner and Rousey">
             </section>
 
 
             <section id="portfolio" class="portfolio-container">
-                <!-- <div id="portfolio-card" class="card w-25">
-                    <h3 class="section-title">Portfolio</h3>
-                    <div class="portfolio-img">
-                        <img class="card-img-top" src="./assets/images/portfolio.jpg" alt="picture of a portfolio, made from wood">
-                    </div>
-
-                </div> -->
-
                 <div id="portfolio-card" class="card w-25">
                     <img class="card-img" src="./assets/images/portfolio.jpg" alt="picture of a portfolio, made from wood">
                     <div class="portfolio-img card-img-overlay">
@@ -57,62 +50,64 @@
                     </div>
 
                 </div>
-
+                <div id="preview-container">
                 <div class="portfolio-list-container justify-content-around row card-deck">
-                    <div class="col-md-4 col-xs-12 text-center card">
-                        <a href="https://shaunmichaelgreene.github.io/run-buddy/">Course Project 1: Run Buddy (2022)</a>
-                        <img src="./assets/images/run-buddy preview.JPG" class="img-thumbnail hover-shadow card-img-top" alt="thumbnail preview of Run Buddy landing page">
+                    
+                    <div class="col-md-4 col-xs-12 text-center card project-card">
+                        <a href="https://github.com/shaunmichaelgreene/run-buddy" target="_blank">Course Project 1: Run Buddy  <i class="fa-brands fa-github" style="max-width: 25px" alt="Github icon"></i></a>
+                        <img src="./assets/images/run-buddy preview.JPG" class="img-thumbnail  card-img-top" alt="thumbnail preview of Run Buddy landing page">
                     </div>
-                    <div class="col-md-4 col-xs-12 text-center card">
-                        <a href="https://shaunmichaelgreene.github.io/horiseon/index.html">Course Project 2: Horiseon (2022)</a>
-                        <img src="./assets/images/horiseon preview.JPG" class="img-thumbnail hover-shadow card-img-top" alt="thumbnail preview of Horiseon landing page">
+                    <div class="col-md-4 col-xs-12 text-center card project-card">
+                        <a href="https://github.com/shaunmichaelgreene/horiseon" target="_blank" target="_blank">Course Project 2: Horiseon <i class="fa-brands fa-github" style="max-width: 25px" alt="Github icon"></i></a>
+                        <img src="./assets/images/horiseon preview.JPG" class="img-thumbnail  card-img-top" alt="thumbnail preview of Horiseon landing page">
                     </div>
-                    <div class="col-md-4 col-xs-12 text-center card">
-                        <a href="https://github.com/shaunmichaelgreene/robot-gladiators">Course Project 3: Robot Gladiators (2022)</a>
-                        <img src="./assets/images/robot-gladiators preview.png" class="img-thumbnail img-fluid hover-shadow card-img-top" alt="thumbnail preview of Robot Gladiators landing page">
+                    <div class="col-md-4 col-xs-12 text-center card project-card">
+                        <a href="https://github.com/shaunmichaelgreene/robot-gladiators" target="_blank">Course Project 3: Robot Gladiators <i class="fa-brands fa-github" style="max-width: 25px" alt="Github icon"></i></a>
+                        <img src="./assets/images/robot-gladiators preview.png" class="img-thumbnail img-fluid  card-img-top" alt="thumbnail preview of Robot Gladiators landing page">
                     </div>
                 </div>
-                <div class="portfolio-list-container justify-content-around row">
-                        <div class="col-md-4 text-center">
-                            <a href="https://github.com/shaunmichaelgreene/password-generator">Course Project 4: Password Generator (2022)</a>
-                            <img src="./assets/images/password-generator preview.png" class="img-thumbnail hover-shadow" alt="thumbnail preview of Password Generator landing page">
+                <div class="portfolio-list-container justify-content-around row card-deck">
+                        <div class="col-md-4 col-xs-12 text-center card project-card">
+                            <a href="https://github.com/shaunmichaelgreene/password-generator" target="_blank">Course Project 4: Password Generator <i class="fa-brands fa-github" style="max-width: 25px" alt="Github icon"></i></a>
+                            <img src="./assets/images/password-generator preview.png" class="img-thumbnail " alt="thumbnail preview of Password Generator landing page">
                         </div>
-                        <div class="col-md-4 text-center">
-                            <a href="https://github.com/shaunmichaelgreene/taskintaor">Course Project 5: Taskinator (2022)</a>
-                            <img src="./assets/images/taskinator preview.png" class="img-thumbnail hover-shadow" alt="thumbnail preview of Taskinator landing page">
+                        <div class="col-md-4 col-xs-12 text-center card project-card">
+                            <a href="https://github.com/shaunmichaelgreene/taskinator" target="_blank">Course Project 5: Taskinator <i class="fa-brands fa-github" style="max-width: 25px" alt="Github icon"></i></a>
+                            <img src="./assets/images/taskinator preview.png" class="img-thumbnail " alt="thumbnail preview of Taskinator landing page">
                         </div>
-                        <div class="col-md-4 text-center">
-                            <a href="https://github.com/shaunmichaelgreene/coding-quiz">Course Project 6: Coding Quiz (2022)</a>
-                            <img src="./assets/images/coding-quiz preview.png" class="img-thumbnail hover-shadow" alt="thumbnail preview of Coding Quiz landing page">
-                        </div>
-                </div>
-                <div class="portfolio-list-container justify-content-around row">
-                        <div class="col-md-4 text-center">
-                            <a href="https://github.com/shaunmichaelgreene/taskmaster-pro">Course Project 7: Taskmaster Pro (2022)</a>
-                            <img src="./assets/images/taskmaster-pro preview.png" class="img-thumbnail hover-shadow" alt="thumbnail preview of Taskmaster Pro landing page">
-                        </div>
-                        <div class="col-md-4 text-center">
-                            <a href="https://github.com/shaunmichaelgreene/work-day-scheduler">Course Project 8: Work-Day Scheduler (2022)</a>
-                            <img src="./assets/images/work-day-scheduler preview.png" class="img-thumbnail hover-shadow" alt="thumbnail preview of Work-Day Scheduler landing page">
-                        </div>
-                        <div class="col-md-4 text-center">
-                            <a href="https://github.com/shaunmichaelgreene/git-it-done">Course Project 9: Git-It-Done (2022)</a>
-                            <img src="./assets/images/git-it-done preview.png" class="img-thumbnail hover-shadow" alt="thumbnail preview of Git-It-Done landing page">
+                        <div class="col-md-4 col-xs-12 text-center card project-card">
+                            <a href="https://github.com/shaunmichaelgreene/coding-quiz" target="_blank">Course Project 6: Coding Quiz <i class="fa-brands fa-github" style="max-width: 25px" alt="Github icon"></i></a>
+                            <img src="./assets/images/coding-quiz preview.png" class="img-thumbnail " alt="thumbnail preview of Coding Quiz landing page">
                         </div>
                 </div>
-                <div class="portfolio-list-container justify-content-around row">
-                        <div class="col-md-4 text-center">
-                            <a href="https://github.com/shaunmichaelgreene/weather-dashboard">Course Project 10: Weather Dashboard (2022)</a>
-                            <img src="./assets/images/weather-dashboard preview.png" class="img-thumbnail hover-shadow" alt="thumbnail preview of Weather Dashbord landing page">
+                <div class="portfolio-list-container justify-content-around row card-deck">
+                        <div class="col-md-4 col-xs-12 text-center card project-card">
+                            <a href="https://github.com/shaunmichaelgreene/taskmaster-pro" target="_blank">Course Project 7: Taskmaster Pro <i class="fa-brands fa-github" style="max-width: 25px" alt="Github icon"></i></a>
+                            <img src="./assets/images/taskmaster-pro preview.png" class="img-thumbnail " alt="thumbnail preview of Taskmaster Pro landing page">
                         </div>
-                        <div class="col-md-4 text-center">
-                            <a href="https://github.com/shaunmichaelgreene/taskintaor">Group Project 1: Nature-Finder (2022)</a>
-                            <img src="./assets/images/nature-finder preview.JPG" class="img-thumbnail hover-shadow" alt="thumbnail preview of Taskinator landing page">
+                        <div class="col-md-4 col-xs-12 text-center card project-card">
+                            <a href="https://github.com/shaunmichaelgreene/work-day-scheduler" target="_blank">Course Project 8: Work-Day Scheduler <i class="fa-brands fa-github" style="max-width: 25px" alt="Github icon"></i></a>
+                            <img src="./assets/images/work-day-scheduler preview.png" class="img-thumbnail " alt="thumbnail preview of Work-Day Scheduler landing page">
                         </div>
-                        <div class="col-md-4 text-center">
-                            <a href="https://shaunmichaelgreene.github.io/BSC/index.html">First Professional Project (2013)</a>
-                            <img src="./assets/images/BSC preview.JPG" class="img-thumbnail hover-shadow" alt="thumbnail preview of BSC landing page">
+                        <div class="col-md-4 col-xs-12 text-center card project-card">
+                            <a href="https://github.com/shaunmichaelgreene/git-it-done" target="_blank">Course Project 9: Git-It-Done <i class="fa-brands fa-github" style="max-width: 25px" alt="Github icon"></i></a>
+                            <img src="./assets/images/git-it-done preview.png" class="img-thumbnail " alt="thumbnail preview of Git-It-Done landing page">
                         </div>
+                </div>
+                <div class="portfolio-list-container justify-content-around row card-deck">
+                        <div class="col-md-4 col-xs-12 text-center card project-card">
+                            <a href="https://github.com/shaunmichaelgreene/weather-dashboard" target="_blank">Course Project 10: Weather Dashboard <i class="fa-brands fa-github" style="max-width: 25px" alt="Github icon"></i></a>
+                            <img src="./assets/images/weather-dashboard preview.png" class="img-thumbnail " alt="thumbnail preview of Weather Dashbord landing page">
+                        </div>
+                        <div class="col-md-4 col-xs-12 text-center card project-card">
+                            <a href="https://github.com/shaunmichaelgreene/nature-finder" target="_blank">Group Project 1: Nature-Finder <i class="fa-brands fa-github" style="max-width: 25px" alt="Github icon"></i></a>
+                            <img src="./assets/images/nature-finder preview.JPG" class="img-thumbnail " alt="thumbnail preview of Nature-Finder landing page">
+                        </div>
+                        <div class="col-md-4 col-xs-12 text-center card project-card">
+                            <a href="https://github.com/shaunmichaelgreene/bsc" target="_blank">First Professional Project <i class="fa-brands fa-github" style="max-width: 25px" alt="Github icon"></i></a>
+                            <img src="./assets/images/BSC preview.JPG" class="img-thumbnail " alt="thumbnail preview of BSC landing page">
+                        </div>
+                </div>
                 </div>
             </section>
 
@@ -171,6 +166,7 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="./assets/js/script.js"></script>
     </body>
 
     <footer>
