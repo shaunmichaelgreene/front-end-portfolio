@@ -24,9 +24,9 @@ var linkHandler = function(event) {
     
     console.log("Redirecting to: " + liveLink);
     //event listener for the project images
-    projectCardEl.addEventListener("click", linkHandler)
 }
 
+projectCardEl.addEventListener("click", linkHandler)
 //CODE GRAVEYARD
 // if (linkStatus == true) {
 //     console.log("liveLink is good! opening...")
