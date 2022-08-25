@@ -5,6 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shaun Greene's Workshop</title>
+    <!--import 3rd party resources: bootstrap, jquery, link previewer-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/newstyle.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -18,6 +19,7 @@
 </head>
 
     <body>
+        <!--header with navbar for page sections-->
         <header class="navbar sticky-top row d-block">
             <h1 class="d-flex">
                 <a class="col-6" href="./index.html">Shaun's Workshop</a>
@@ -31,17 +33,21 @@
                 </nav>
             </h1>
         </header>
+        <!--end header-->
         <main>
+            <!--bio section-->
             <section id="bio" class="row container">
                 <h3 id="bio-title" class="section-title justify-content-center">Bio</h3>
                 <div class="bio-image p-2 text-center col-sm-6">
                     <img src="./assets/images/bio-img.jpg" class ="img-fluid" alt="picture of Shaun standing and smiling on a rainy day">
                 </div>
+                <!--bio text with embedded link to picture of shaun's dogs that appears upon hover-->
                 <p class="lead bio-text p-2 text-center col-sm-6">Shaun Greene is an amateur developer, carpenter, and woodworker. He is currently progressing through the Full Stack Coding Boot Camp at Michigan State University. Professionally, Shaun has worn many hats during his career. With prior experience in sales, business development, project management, oil & gas, and land management; Shaun currently works as a President's Club Title Analyst for Rocket Companies. Shaun is focused on securing a full-time position as a Full Stack Developer upon graduation (expected September 2022). Shaun spends his free time building custom furniture, working on home improvements, and hiking with his dogs - <a href="./assets/images/dogs.JPG" id="dogs" target="_blank">Gunner & Rousey</a>.</p>
                 <img src="./assets/images/dogs.JPG" id="dogs-img" class="" alt="a picture of Shaun's dogs, Gunner and Rousey">
             </section>
+            <!--end bio section-->
 
-
+            <!--portfolio section-->
             <section id="portfolio" class="portfolio-container">
                 <div id="portfolio-card" class="card w-25">
                     <img class="card-img" src="./assets/images/portfolio.jpg" alt="picture of a portfolio, made from wood">
@@ -50,6 +56,7 @@
                     </div>
 
                 </div>
+
                 <div id="preview-container">
                 <div class="portfolio-list-container justify-content-around row card-deck">
                     
@@ -153,7 +160,9 @@
 
                 </div>
             </section>
-
+            <!--end portfolio section-->
+            
+            <!--resume section-->
             <section id="resume" class="resume-container row">
                 <div id="resume-card" class="card w-25">
                     <img class="card-img" src="./assets/images/resume-img.jpg" alt="picture of a resume on a drafting desk, surrounded by wooden tools">
@@ -166,28 +175,15 @@
 
                 </div>
 
-                <!-- <h3 class="section-title">Resume</h3>
-                <div class="resume-img">
-                    <img src="./assets/images/resume-img.jpg" class="img-thumbnail" alt="picture of a resume on a drafting desk, surrounded by wooden tools">
-                    <p>Check out Shaun's resume below, or &nbsp;<a href="./assets/SGreene Resume Word 4-2022.pdf" target="_blank"> click here </a>.</p>
-                </div> -->
                 <div class="resume-preview">
                     <object data="./assets/SGreene Resume Word 7-2022.pdf" type="application/pdf">
                         <iframe src="https://docs.google.com/viewer?url=./assets/SGreene_Resume_Word_7-2022.pdf&embedded=true"></iframe>
                     </object>        
                 </div>
             </section>
+            <!--end resume section-->
 
-            <!-- <section id="resume" class="resume-container justify-content-center">
-                <h3 class="section-title">Resume</h3>
-                <p>Check out Shaun's resume below, or &nbsp;<a href="./assets/SGreene Resume Word 8-2020.pdf" target="_blank"> click here </a>.</p>
-                    <div class="resume-preview col">
-                        <object class="w-100 h-100" data="./assets/SGreene Resume Word 4-2022.pdf" type="application/pdf">
-                            <iframe src="https://docs.google.com/viewer?url=./assets/SGreene_Resume_Word_4-2022.pdf&embedded=true" class="w-100 h-100"></iframe>
-                        </object>        
-                    </div>
-            </section> -->
-
+            <!--contact me section-->
             <section id="contact" class="row">
         
                 <div class="card">
@@ -203,12 +199,14 @@
                 </div>
             </div>
             </section>
+            <!--end contact me section-->
         </main>
 
     
 
-
+        <!--script to import bootstrap cdn-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <!--helper script for conditional portfolio link handling-->
     <script src="./assets/js/script.js"></script>
     </body>
 
