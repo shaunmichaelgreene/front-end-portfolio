@@ -1,4 +1,4 @@
-Welcome to the README for Shaun's Portfolio! This is currently a work in progress, that is being continually updated and amended as I learn new skills and complete new projects. 
+Welcome to the README for Shaun's Portfolio! This was my front end portfolio that I continually updated and amended as I learned new skills and completed new projects during a full stack certification course. This was built from scratch using HTML, custom CSS, javascript, and a few bootstrap elements. 
 
 Live Deployment Link: https://shaunmichaelgreene.github.io/front-end-portfolio/index.html
 
